@@ -15,31 +15,34 @@ body {
 
 #login-box {
   position: relative;
-  margin: 5% auto;
-  width: 600px;
-  height: 400px;
+  margin: 5%;
+  width: 700px;
+  height: 430px;
   background: #FFF;
-  border-radius: 2px;
+  border-radius: 20px;
+  padding: 80px;
+  border: solid;
+  border-width: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .left {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 12px;
+  left: 22px;
   box-sizing: border-box;
   padding: 40px;
   width: 300px;
   height: 400px;
   border: solid;
   border-width: 1px;
-  border-right: darkgreen;
 }
 
 h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
+  color: var(--main-style-color);
 }
 
 input[type="text"],
@@ -67,6 +70,7 @@ input[type="password"]:focus {
 
 input[type="submit"] {
   margin-top: 28px;
+  margin-left: 50px;
   width: 120px;
   height: 32px;
   background: #16a085;
@@ -75,7 +79,6 @@ input[type="submit"] {
   color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  text-transform: uppercase;
   transition: 0.1s ease;
   cursor: pointer;
 }
@@ -96,7 +99,7 @@ input[type="submit"]:active {
 .or {
   position: absolute;
   top: 180px;
-  left: 280px;
+  left: 302px;
   width: 40px;
   height: 40px;
   background: #DDD;
@@ -109,24 +112,19 @@ input[type="submit"]:active {
 .right {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 50px;
   box-sizing: border-box;
   padding: 40px;
   width: 300px;
   height: 400px;
-  background: url('https://goo.gl/YbktSj');
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 2px 2px 0;
-  border: solid;
-  border-width: 1px;
+  border: none;
 }
 
-.right .loginwith {
+.loginwith {
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
-  color: #FFF;
+  color: var(--main-style-color);
   text-align: center;
 }
 
