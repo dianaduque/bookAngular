@@ -13,8 +13,8 @@ export class AsideLeftComponent implements OnInit {
 
   ngOnInit() {
     this.user = {
-      name: "usuario",
-      lastname: "prueba",
+      name: "test",
+      lastname: "user",
       username: "diana",
       email: "u@correo.com",
       urlImage: "http://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
