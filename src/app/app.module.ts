@@ -13,6 +13,7 @@ import { FavoritesListComponent } from './favorites-list/favorites-list.componen
 import { CollectionListComponent } from './collection-list/collection-list.component';
 import {routes} from "./routes";
 import { BookDetailComponent } from './book-detail/book-detail.component';
+import { AuthPageComponent } from './auth-page/auth-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BookDetailComponent } from './book-detail/book-detail.component';
     BooksListMainComponent,
     FavoritesListComponent,
     CollectionListComponent,
-    BookDetailComponent
+    BookDetailComponent,
+    AuthPageComponent
   ],
   imports: [
     BrowserModule,

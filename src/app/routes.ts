@@ -3,6 +3,7 @@ import { BooksListMainComponent} from "./books-list-main/books-list-main.compone
 import {FavoritesListComponent} from "./favorites-list/favorites-list.component";
 import {CollectionListComponent} from "./collection-list/collection-list.component";
 import {BookDetailComponent} from "./book-detail/book-detail.component";
+import {AuthPageComponent} from "./auth-page/auth-page.component";
 import { Component } from "@angular/core";
 
 export const routes: Routes = [
@@ -21,6 +22,10 @@ export const routes: Routes = [
     {
         path: "detail/:id",
         component: BookDetailComponent
+    },
+    {
+        path: "authentication",
+        component: AuthPageComponent
     },
     {
         path: "**",
