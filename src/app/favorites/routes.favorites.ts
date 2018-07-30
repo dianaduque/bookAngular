@@ -7,10 +7,5 @@ export const routes: Routes = [
     {
         path: "list",
         component: FavoritesListComponent
-    },
-    {
-        path: '',
-        redirectTo: 'list',
-        pathMatch: 'full'
     }
 ]

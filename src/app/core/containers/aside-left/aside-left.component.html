@@ -1,8 +1,8 @@
-<aside class="left-aside">
+<aside class="left-aside" [@asideAnimation]="asideState">
     <div class="header-aside">
-        <app-aside-left-user [user]="user"></app-aside-left-user>
+        <app-aside-left-user [user]="user" [asideState]="asideState"></app-aside-left-user>
     </div>
     <div class="content-aside">
-        <app-aside-left-menu></app-aside-left-menu>
+        <app-aside-left-menu [asideState]="asideState"></app-aside-left-menu>
     </div>
 </aside>
